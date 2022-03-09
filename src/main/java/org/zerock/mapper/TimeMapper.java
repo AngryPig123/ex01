@@ -7,4 +7,6 @@ public interface TimeMapper {
 	@Select("SELECT SYSDATE FROM dual")
 	public String getTime();
 
+	public String getTIme2();
+	
 }
